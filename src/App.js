@@ -3,6 +3,8 @@ import './App.css'
 import Footer from './pages/Footer/Footer';
 import Header from './pages/Header/Header';
 import Home from './pages/Home/Home';
+import Login from './pages/Login/Login';
+import Register from './pages/Login/Register';
 import NotFound from './pages/Shared/NotFound';
 
 function App() {
@@ -11,7 +13,9 @@ function App() {
    <Header/>
    <Routes>
     <Route path='/' element={<Home/>}></Route>
-    <Route path='/' element={<Home/>}></Route>
+    <Route path='/home' element={<Home/>}></Route>
+    <Route path='/login' element={<Login/>}></Route>
+    <Route path='/register' element={<Register/>}></Route>
     <Route path='*' element={<NotFound/>}></Route>
    </Routes>
    <Footer/>

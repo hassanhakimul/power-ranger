@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../images/logo1.png'
 const Header = () => {
     return (
@@ -22,16 +23,15 @@ const Header = () => {
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal p-0">
-      <li><a className='text-primary text-2xl font-bold	'>Home</a></li>
-      <li tabindex="0">
-        <a className='text-primary text-2xl font-bold	'>
-        Favourite
-        </a>
-      </li>
-      <li><a className='text-primary text-2xl font-bold	'>About</a></li>
+      <li></li><Link to='/' className='text-primary text-2xl font-bold	'>Home</Link><li></li>
+      <li></li><Link to='/favourite' className='text-primary text-2xl font-bold	'>Favourite</Link><li></li>
+      <li></li><Link to='/about' className='text-primary text-2xl font-bold	'>About</Link><li></li>
+      <li></li><Link to='/login' className='text-primary text-2xl font-bold	'>Login</Link><li></li>
+      
+      
     </ul>
   </div>
-  <div class="navbar-end">
+  <div class="navbar-end  hidden lg:flex ">
   <div class="form-control bg-primary">
       <input type="text" placeholder="Search" class="input input-bordered" />
     </div>
