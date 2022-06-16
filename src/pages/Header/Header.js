@@ -25,7 +25,7 @@ const Header = () => {
     <ul class="menu menu-horizontal p-0">
       <li></li><Link to='/' className='text-primary text-2xl font-bold	'>Home</Link><li></li>
       <li></li><Link to='/favourite' className='text-primary text-2xl font-bold	'>Favourite</Link><li></li>
-      <li></li><Link to='/about' className='text-primary text-2xl font-bold	'>About</Link><li></li>
+      <li></li><Link to='/message' className='text-primary text-2xl font-bold	'>Contact Us</Link><li></li>
       <li></li><Link to='/login' className='text-primary text-2xl font-bold	'>Login</Link><li></li>
       
       

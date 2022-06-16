@@ -1,6 +1,7 @@
 import React from 'react';
 import AppStore from '../Shared/AppStore';
 import Corusel from '../Shared/Corusel';
+import MsgForm from '../Shared/MsgForm';
 import NewsLetter from '../Shared/NewsLetter';
 import Products from '../Shared/Products/Products';
 import Stat from '../Shared/Stat';

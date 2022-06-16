@@ -10,7 +10,7 @@ const Banner = () => {
                         <h2 class="text-3xl font-semibold text-amber-400 md:text-4xl"> GET YOUR<span class="text-primary"> FACOURITE</span> <span class="text-primary">RANGERS</span></h2>
                         <p class="mt-2 text-sm text-gray-500 md:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis commodi cum cupiditate ducimus, fugit harum id necessitatibus odio quam quasi, quibusdam rem tempora voluptates. Cumque debitis dignissimos id quam vel!</p>
                         <div class="flex justify-center lg:justify-start mt-6">
-                            <button className="btn relative inline-flex items-center justify-start overflow-hidden transition-all bg-white rounded hover:bg-white group">
+                            <button className="btn relative inline-flex items-center justify-start overflow-hidden transition-all bg-white rounded-lg hover:bg-white group">
                                 <span className="w-0 h-0 rounded bg-primary absolute top-0 left-0 ease-out duration-500 transition-all group-hover:w-full group-hover:h-full -z-1"></span>
                                 <span className="w-full text-black transition-colors duration-300 ease-in-out group-hover:text-white z-10">
                                     Get started
