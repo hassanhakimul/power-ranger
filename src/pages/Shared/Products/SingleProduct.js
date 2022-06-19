@@ -6,7 +6,7 @@ const SingleProduct = ({product}) => {
         <div class="min-h-screen flex justify-center items-center">
                     <div class="container flex justify-center">
                         <div class="max-w-sm py-32">
-                            <div class="bg-white relative shadow-lg hover:shadow-xl transform transition duration-500 hover:scale-110 rounded-lg ">
+                            <div class="bg-white shadow-2xl relative shadow-lg hover:shadow-xl transform transition duration-500 hover:scale-110 rounded-lg ">
                                 <img class="rounded-t-lg " src={img} alt="" />
                                 <div class="py-6 px-8 rounded-lg bg-white">
                                     <h1 class="text-gray-700 font-bold text-2xl mb-3 hover:text-gray-900 hover:cursor-pointer">{name}</h1>
